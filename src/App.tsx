@@ -2038,12 +2038,12 @@ export default function App() {
                 <div className="relative group">
                   <pre className="p-3 rounded-xl bg-slate-950 border border-slate-800 font-mono-code text-[11px] text-slate-200 overflow-x-auto">
 {`git add .
-git commit -m "fix: adiciona package-lock.json e deploy workflow"
+git commit -m "fix: deploy definitivo via branch gh-pages"
 git push`}
                   </pre>
                   <button
                     type="button"
-                    onClick={() => copyCommand(`git add .\ngit commit -m "fix: adiciona package-lock.json e deploy workflow"\ngit push`, 1)}
+                    onClick={() => copyCommand(`git add .\ngit commit -m "fix: deploy definitivo via branch gh-pages"\ngit push`, 1)}
                     className="absolute top-2 right-2 px-2 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 text-[10px] font-mono flex items-center gap-1 border border-slate-700"
                   >
                     {copiedIndex === 1 ? <Check className="w-3 h-3 text-emerald-400" /> : <Copy className="w-3 h-3" />}
